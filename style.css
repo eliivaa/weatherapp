@@ -1,0 +1,143 @@
+body {
+  background: url(wallpaperflare.com_wallpaper.jpg) no-repeat top center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.weatherbox {
+  border: solid 2px white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+
+.leftbox {
+  color: rgb(12, 12, 12);
+  background: rgba(223, 202, 84, 0.4);
+  border-radius: 25px;
+  box-shadow: 1px 1px 1px 1px rbga(0, 0, 0, 0.3);
+  padding: 15px;
+  width: 200px;
+
+}
+
+.city {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.month {
+  font-size: 16px;
+}
+
+.day {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.temp {
+  font-size: 40px;
+}
+
+.rightbox {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-right: 15px;
+
+
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: right;
+  border-radius: 20px;
+  left: 120%;
+  position: relative;
+  top: 5px;
+  left: 12px;
+
+}
+
+.top input {
+  text-overflow: capitalize;
+  background-color: rgba(98, 202, 124, 0.4);
+
+}
+
+input {
+  border-radius: 20px;
+}
+
+.top input::placeholder {
+  color: #000;
+}
+
+.searchbtn {
+  background: rgba(98, 202, 124, 0.4);
+  border-radius: 50%;
+}
+
+
+#cityInput::placeholder {
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  width: 100%;
+
+
+}
+
+.button {
+  border-radius: 20px;
+
+}
+
+.tempcard {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bottomlist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  background-color: rgba(8, 89, 175, 0.4);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 5px 0;
+}
+
+.bottomlist li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 15px;
+}
+
+footer {
+  position: relative;
+  top: 120px;
+  text-align: center;
+}

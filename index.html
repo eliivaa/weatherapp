@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="weatherbox">
+        <div class="leftbox">
+          <div class="city" id="citysection"></div>
+          <div class="month" id="monthsection"></div>
+          <div class="day" id="daysection"></div>
+          <div class="imgcloud" id="imgsection">
+            <img src="" alt="" class="condition">
+          </div>
+          <div class="temp" id="tempsection"></div><br>
+          <div class="dis" id="discrip"></div>
+        </div>
+
+        <div class="rightbox">
+          <div class="top">
+            <input type="text" placeholder="Enter your City" id="cityInput">
+            <button class="searchbtn" id="button">
+              <i class="material-icons md-18">search</i>
+            </button>
+          </div>
+
+          <div class="humidityinfo"></div>
+          <ul class="bottomlist">
+            <li>
+              <i class="material-icons md-18">speed</i>
+              PRESSURE
+              <div class="press">
+              </div>
+            </li>
+
+            <li>
+              <i class="material-icons md-18">air</i>
+              WIND SPEED
+              <div class="wind">
+              </div>
+            </li>
+
+            <li>
+              <i class="material-icons md-18">water_drop</i>
+              HUMIDITY
+              <div class="hum">
+              </div>
+            </li>
+
+            <li>
+              <i class="material-icons md-18">sunny</i>
+              TEM MAX
+              <div class="max">
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <footer>
+      Copyright©ElivaShrestha2024 <br>
+      StudentID-240187
+    </footer>
+
+  </body>
+
+  <script src="index.js"></script>
+
+
+</html>
